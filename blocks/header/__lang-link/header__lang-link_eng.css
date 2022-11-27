@@ -1,0 +1,21 @@
+.header__lang-link_eng {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  max-width: 30px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117%;
+  /* identical to box height, or 117% or 28px*/
+  text-align: right;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link_eng {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

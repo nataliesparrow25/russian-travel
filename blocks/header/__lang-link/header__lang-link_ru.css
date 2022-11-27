@@ -1,0 +1,21 @@
+.header__lang-link_ru {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  max-width: 30px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: right;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link_ru {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

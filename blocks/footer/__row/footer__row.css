@@ -1,0 +1,11 @@
+.footer__row {
+  display: flex;
+  gap: 0px 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__row {
+    flex-direction: column;
+    gap: 32px 0px;
+  }
+}
