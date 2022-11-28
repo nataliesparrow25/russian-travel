@@ -1,6 +1,5 @@
 .photo-grid__image {
   width: 100%;
-  /* padding-bottom: 100%; */
   object-fit: cover;
-  /* display: none; */
+  display: block; 
 }

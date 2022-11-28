@@ -10,15 +10,15 @@
 @media screen and (max-width: 1024px) {
   .places {
     width: 928px;
-    padding: 0px 48px 92px 48px;
+    padding: 0 48px 92px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     width: 720px;
-    padding: 0px 24px 90px 24px;
-  gap: 73px 0px;
+    padding: 0 24px 90px 24px;
+  gap: 73px 0;
 
   }
 }
@@ -26,7 +26,7 @@
 @media screen and (max-width: 320px) {
   .places {
     width: 320px;
-    padding: 0px 0px 66px 0px;
-    gap: 50px 0px;
+    padding: 0 0 66px;
+    gap: 50px 0;
   }
 }

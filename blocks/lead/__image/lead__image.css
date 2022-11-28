@@ -1,9 +1,10 @@
 .lead__image {
   height: 615px;
   width: 984px;
-  margin: 0px;
-  border-radius: 0px;
+  margin: 0;
   align-self: center;
+  display:block;
+  box-sizing: border-box;
 }
 
 
