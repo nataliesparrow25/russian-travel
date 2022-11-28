@@ -1,7 +1,8 @@
 .intro {
   max-width: 690px;
-  margin: 0;
-  padding: 0 442px 92px 148px;
+  margin: 0 ;
+  padding-left: 148px;
+  padding-bottom: 92px;
   display: flex;
   flex-direction: column;
   background-color: #2a2c2f;
@@ -9,20 +10,23 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
-    padding: 0 286px 92px 48px;
+      padding-left: 48px;
+  padding-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
-    padding: 0 24px 88px 24px;
+      padding-left: 24px;
+  padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     max-width: 288px;
-    padding: 0 16px 64px 16px;
+      padding-left: 16px;
+  padding-bottom: 64px;
   }
 }

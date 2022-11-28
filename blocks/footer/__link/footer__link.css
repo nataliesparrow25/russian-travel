@@ -6,6 +6,7 @@
   color: #ffffff;
   list-style: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footer__link:hover {
