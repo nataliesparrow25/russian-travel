@@ -9,21 +9,21 @@
   </head>
   <body class="root">
     <header class="header">
-        <img
-          class="header__column header__logo"
-          src="./images/header-logo.svg"
-          alt="Путешествия по России. Россия на карте"
-        />
-        <div class="header__column">
-          <a
-            class="header__lang-link header__lang-link_active"
-            type="button"
-            lang="ru"
-            >Ru</a
-          >
-          <a class="header__lang-link" type="button" lang="en">En</a>
-        </div>
-      </header>
+      <img
+        class="header__column header__logo"
+        src="./images/header-logo.svg"
+        alt="Путешествия по России. Россия на карте"
+      />
+      <div class="header__column">
+        <a
+          class="header__lang-link header__lang-link_active"
+          type="button"
+          lang="ru"
+          >Ru</a
+        >
+        <a class="header__lang-link" type="button" lang="en">En</a>
+      </div>
+    </header>
     <main class="page">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
@@ -283,14 +283,16 @@
       <section class="cover">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
-          class="cover__link cover__overlay"
+          class="cover__link"
           target="_blank"
         >
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
+          <div class="cover__overlay">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
         </a>
       </section>
     </main>
@@ -329,7 +331,7 @@
               >Календарь</a
             >
           </li>
-          <li >
+          <li>
             <a
               href="https://travel.yandex.ru"
               target="_blank"

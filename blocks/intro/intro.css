@@ -1,6 +1,6 @@
 .intro {
   max-width: 690px;
-  margin: 0 ;
+  margin: 0;
   padding-left: 148px;
   padding-bottom: 92px;
   display: flex;
@@ -10,23 +10,23 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
-      padding-left: 48px;
-  padding-bottom: 92px;
+    padding-left: 48px;
+    padding-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
-      padding-left: 24px;
-  padding-bottom: 88px;
+    padding-left: 24px;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     max-width: 288px;
-      padding-left: 16px;
-  padding-bottom: 64px;
+    padding-left: 16px;
+    padding-bottom: 64px;
   }
 }
