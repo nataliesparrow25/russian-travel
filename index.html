@@ -10,18 +10,13 @@
   <body class="root">
     <header class="header">
       <img
-        class="header__column header__logo"
+        class="header__logo"
         src="./images/header-logo.svg"
         alt="Путешествия по России. Россия на карте"
       />
       <div class="header__column">
-        <a
-          class="header__lang-link header__lang-link_active"
-          type="button"
-          lang="ru"
-          >Ru</a
-        >
-        <a class="header__lang-link" type="button" lang="en">En</a>
+        <a class="header__lang-link header__lang-link_active" lang="ru">Ru</a>
+        <a class="header__lang-link" lang="en">En</a>
       </div>
     </header>
     <main class="page">
@@ -62,21 +57,24 @@
           <li>Аэропортов <span class="intro__list-numbers">241</span></li>
         </ul>
       </section>
-      <section class="photo-grid">
+      <section
+        class="photo-grid"
+        aria-label="Фотографии красивых мест в России"
+      >
         <img
           class="photo-grid__image"
           src="./images/photo-grid-train.jpg"
-          alt="Поезд"
+          alt="Вид из окна поезда на море и деревья в летнюю погоду"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-atharva-tulsi.jpg"
-          alt="Облака и горы"
+          alt="Густные облака и заснеженные горы"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-tuman.jpg"
-          alt="Волк"
+          alt="Волк на стоге сена в поле"
         />
         <img
           class="photo-grid__image"
@@ -86,12 +84,12 @@
         <img
           class="photo-grid__image"
           src="./images/photo-grid-arisa.jpg"
-          alt="Колесо на льду"
+          alt="Колесо на треснувшем льду"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-baikal.jpg"
-          alt="Побережье Байкала"
+          alt="Побережье Байкала с видом на гору"
         />
         <img
           class="photo-grid__image"
@@ -101,35 +99,39 @@
         <img
           class="photo-grid__image"
           src="./images/photo-grid-kondratiev.jpg"
-          alt="Пешеходный переход"
+          alt="Пешеходный переход с видом на волнорезы"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-kamchatka-1.jpg"
-          alt="Камчатка 1"
+          alt="Место рядом с гейзером. Камчатка"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-kamchatka-2.jpg"
-          alt="Камчатка 2"
+          alt="Вид на высокую гору. Камчатка"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-baikal-2.jpg"
-          alt="Байкал 2"
+          alt="Вид на берег с горой. Байкал"
         />
         <img
           class="photo-grid__image"
           src="./images/photo-grid-ergaki.jpg"
-          alt="Туман"
+          alt="Туман в горах"
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a href="http://park-kosa.ru" target="_blank" class="place__link"
+            <span class="place__url-heading">URL</span>
+            <a
+              href="http://park-kosa.ru"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="place__link"
               >park-kosa.ru</a
             >
           </div>
@@ -154,14 +156,15 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
+              rel="noopener noreferrer"
               class="place__link"
               >National Geographic</a
             >
@@ -187,14 +190,15 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
+              rel="noopener noreferrer"
               class="place__link"
               >YouTube</a
             >
@@ -219,14 +223,15 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">URL</span>
             <a
               href="https://vk.com/baikalmile"
               target="_blank"
+              rel="noopener noreferrer"
               class="place__link"
               >https://vk.com/baikalmile</a
             >
@@ -250,12 +255,16 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a href="http://vodlozero.ru" target="_blank" class="place__link"
+            <span class="place__url-heading">URL</span>
+            <a
+              href="http://vodlozero.ru"
+              target="_blank"
+              class="place__link"
+              rel="noopener noreferrer"
               >http://vodlozero.ru/</a
             >
           </div>
@@ -277,7 +286,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -285,14 +294,13 @@
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           class="cover__link"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <div class="cover__overlay">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>
@@ -303,6 +311,7 @@
             <a
               href="https://yandex.ru/maps"
               target="_blank"
+              rel="noopener noreferrer"
               class="footer__link"
               >Карты</a
             >
@@ -311,6 +320,7 @@
             <a
               href="https://yandex.ru/pogoda"
               target="_blank"
+              rel="noopener noreferrer"
               class="footer__link"
               >Погода</a
             >
@@ -319,6 +329,7 @@
             <a
               href="https://rasp.yandex.ru"
               target="_blank"
+              rel="noopener noreferrer"
               class="footer__link"
               >Расписание</a
             >
@@ -327,6 +338,7 @@
             <a
               href="https://calendar.yandex.ru"
               target="_blank"
+              rel="noopener noreferrer"
               class="footer__link"
               >Календарь</a
             >
@@ -335,6 +347,7 @@
             <a
               href="https://travel.yandex.ru"
               target="_blank"
+              rel="noopener noreferrer"
               class="footer__link"
               >Путешествия</a
             >

@@ -5,6 +5,7 @@
   align-self: center;
   display: block;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {

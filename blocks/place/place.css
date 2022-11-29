@@ -9,7 +9,7 @@
   .place {
     grid-template-columns: repeat(2, fit-content(440px));
     grid-template-rows: repeat(2, fit-content(456px));
-    gap: 48px 32px;
+    column-gap: 32px;
     width: 928px;
   }
 }
@@ -18,7 +18,7 @@
   .place {
     grid-template-columns: repeat(2, fit-content(340px));
     grid-template-rows: repeat(2, fit-content(352px));
-    gap: 28px;
+    column-gap: 28px;
     width: 720px;
   }
 }
